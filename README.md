@@ -124,7 +124,6 @@ If all goes well, it should work. But there is probably another step that I forg
 
 ##Helpful Links
 http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/node-intro.html
-http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/node-configuring.html
 https://devcenter.heroku.com/articles/s3-upload-node
 https://github.com/KDawg/S3DeployJS
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
