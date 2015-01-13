@@ -1,5 +1,4 @@
-#S3 on Node
-##NodeJS Project Deploying Files to AWS S3
+#NodeJS Project Deploying Files to AWS S3
 
 ##Blurb
 Uploading to S3 works! That's about as far as I am in this project. I'm not even sure this will work on your machine. If it doesn't, we'll figure it out in class. I haven't learned how to write README.md files yet so forgive the formatting. I know you are used to seeing fabulous READMEs. Anyhoo, I hope this helps!
@@ -26,7 +25,7 @@ When you have it, log into your console and select "S3" from the "Services" tab
 5. Click "Edit CORS Configuration"
 6. Copy and paste this in
 
-
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
     <CORSRule>
@@ -37,13 +36,13 @@ When you have it, log into your console and select "S3" from the "Services" tab
         <AllowedHeader>*</AllowedHeader>
     </CORSRule>
 </CORSConfiguration>
-
+```
 
 7. Click "Save" in the CORS configuration modal
 8. Click "Save" again in the main bucket settings section
 9. Select "IAM" from "Services" in the top navigation bar
 
-#Group Setup
+##Group Setup
 1. Click on "Groups" in the sidebar
 2. Click "Create New Group" 
 3. Enter a group name (i.e. "admin" -- you will use this later)
@@ -53,7 +52,7 @@ When you have it, log into your console and select "S3" from the "Services" tab
 7. Click "Create Group"
 
 
-#User Setup
+##User Setup
 1. Click on "Users" in the sidebar
 2. Click "Create New Users"
 3. Enter a username(s)
@@ -69,7 +68,7 @@ When you have it, log into your console and select "S3" from the "Services" tab
 13. Click "Add to Groups"
 
 
-#Adding your credentials
+##Adding your credentials
 Note: the symbol $ in this tutorial means you have to type these commands in the terminal. 
 Do not type $
 
@@ -77,22 +76,25 @@ Do not type $
 2. $ touch ~/.aws/credentials
 3. $ open ~/.aws/credentials
 4. Copy and paste this into the file 
-
+```
 [default]
 
 aws_access_key_id = ASDFOIJASDLKFJAEWIFJAWOEIFJ
 
 aws_secret_access_key = bnASDFN+atJtASDFYOwg2JftmASDFASDFAE4SeAt32ASDF
-
+```
 
 5. Replace the values with the access and secret key you stored earlier. If you run the app now, it won't work. The keys above are for demo.
 6. Save and close this file
 
 ## git Setup
 1. In your terminal, cd into your projects directory
-2. $ git clone https://github.com/kylen12/deployS3.git
-3. $ npm install
-4. $ subl .
+
+```
+$ git clone https://github.com/kylen12/deployS3.git
+$ npm install
+$ subl .
+```
 
 ## Project Configuration
 1. Open index.js
