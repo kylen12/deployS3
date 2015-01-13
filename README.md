@@ -73,10 +73,14 @@ When you have it, log into your console and select "S3" from the "Services" tab
 Note: the symbol $ in this tutorial means you have to type these commands in the terminal. 
 Do not type $
 
-1. Open your terminal
-2. $ touch ~/.aws/credentials
-3. $ open ~/.aws/credentials
-4. Copy and paste this into the file 
+Open your terminal
+
+```
+$ touch ~/.aws/credentials
+$ open ~/.aws/credentials
+```
+
+Copy and paste this into the file 
 ```
 [default]
 
@@ -85,8 +89,9 @@ aws_access_key_id = ASDFOIJASDLKFJAEWIFJAWOEIFJ
 aws_secret_access_key = bnASDFN+atJtASDFYOwg2JftmASDFASDFAE4SeAt32ASDF
 ```
 
-5. Replace the values with the access and secret key you stored earlier. If you run the app now, it won't work. The keys above are for demo.
-6. Save and close this file
+Replace the values with the access and secret key you stored earlier. If you run the app now, it won't work. The keys above are for demo.
+
+Save and close this file
 
 ## git Setup
 1. In your terminal, cd into your projects directory
@@ -104,9 +109,13 @@ $ subl .
 4. Save 
 
 ## Moment of Truth
-1. Go back in your terminal
-2. nodemon
-3. Open localhost:3000 in your browser
+Go back in your terminal
+
+```
+$nodemon
+```
+
+Open localhost:3000 in your browser
 
 
 ## Fin
