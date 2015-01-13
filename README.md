@@ -1,4 +1,4 @@
-#NodeJS Project Deploying Files to AWS S3
+# Uploading to S3 in Node
 
 ##Blurb
 Uploading to S3 works! That's about as far as I am in this project. I'm not even sure this will work on your machine. If it doesn't, we'll figure it out in class. I haven't learned how to write README.md files yet so forgive the formatting. I know you are used to seeing fabulous READMEs. Anyhoo, I hope this helps!
@@ -16,8 +16,8 @@ Code needs to be updated to support unique image names. Maybe a random character
 
 When you have it, log into your console and select "S3" from the "Services" tab
 
-##S3 Setup
-# Bucket Creation
+#S3 Setup
+## Bucket Creation
 1. Create a bucket (you will use this name later)
 2. Set your region to be "Northern California" (this is important! Region configuration matters)
 3. Click into your newly created bucket
@@ -68,7 +68,8 @@ When you have it, log into your console and select "S3" from the "Services" tab
 13. Click "Add to Groups"
 
 
-##Adding your credentials
+#Local Server
+##Add aws Credentials
 Note: the symbol $ in this tutorial means you have to type these commands in the terminal. 
 Do not type $
 
